@@ -1,7 +1,7 @@
-import { createSignal } from 'solid-js';
-import solidLogo from '@/assets/solid.svg';
-import wxtLogo from '/wxt.svg';
-import './App.css';
+import { createSignal } from "solid-js";
+import solidLogo from "@/assets/solid.svg";
+import wxtLogo from "/wxt.svg";
+import "./App.css";
 
 function App() {
   const [count, setCount] = createSignal(0);
@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://wxt.dev" target="_blank">
+        <a href="https://wxt.dev" target="_blank" rel="noopener">
           <img src={wxtLogo} class="logo" alt="WXT logo" />
         </a>
-        <a href="https://solidjs.com" target="_blank">
+        <a href="https://solidjs.com" target="_blank" rel="noopener">
           <img src={solidLogo} class="logo solid" alt="Solid logo" />
         </a>
       </div>
