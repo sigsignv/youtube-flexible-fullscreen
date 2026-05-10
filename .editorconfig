@@ -9,10 +9,22 @@ trim_trailing_whitespace = true
 [*.md]
 trim_trailing_whitespace = false
 
-[devcontainer.json]
+[*.css]
+indent_style = space
+indent_size = 2
+
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*.{ts,tsx}]
+indent_style = space
+indent_size = 2
+
+[biome.jsonc]
 indent_style = tab
 indent_size = 2
 
-[package.json]
-indent_stype = space
+[devcontainer.json]
+indent_style = tab
 indent_size = 2
