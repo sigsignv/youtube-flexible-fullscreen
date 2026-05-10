@@ -12,3 +12,7 @@ trim_trailing_whitespace = false
 [devcontainer.json]
 indent_style = tab
 indent_size = 2
+
+[package.json]
+indent_stype = space
+indent_size = 2

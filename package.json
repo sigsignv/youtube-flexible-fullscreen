@@ -1,8 +1,10 @@
 {
-  "name": "wxt-solid-starter",
-  "description": "manifest.json description",
   "private": true,
-  "version": "0.0.0",
+  "name": "youtube-flexible-fullscreen",
+  "description": "A Chrome extension for flexible fullscreen on YouTube",
+  "version": "0.1.0",
+  "author": "Sigsign <sig@signote.cc>",
+  "license": "Apache-2.0",
   "type": "module",
   "scripts": {
     "dev": "wxt",
