@@ -20,6 +20,7 @@
     "solid-js": "^1.9.11"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.4.14",
     "@wxt-dev/module-solid": "^1.1.4",
     "typescript": "^5.9.3",
     "wxt": "^0.20.25"
