@@ -24,8 +24,23 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"EditorConfig.EditorConfig"
-			]
+				"EditorConfig.EditorConfig",
+				"biomejs.biome"
+			],
+			"settings": {
+				"[typescript]": {
+					"editor.formatOnSave": true,
+					"editor.defaultFormatter": "biomejs.biome"
+				},
+				"[typescriptreact]": {
+					"editor.formatOnSave": true,
+					"editor.defaultFormatter": "biomejs.biome"
+				},
+				"editor.codeActionsOnSave": {
+					"source.fixAll.biome": "explicit",
+					"source.organizeImports.biome": "explicit"
+				}
+			}
 		}
 	}
 
