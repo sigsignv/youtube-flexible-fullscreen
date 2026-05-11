@@ -1,0 +1,24 @@
+body.flexible-fullscreen {
+  #masthead-container {
+    transform: translateY(calc(-100% - 5px));
+    opacity: 0;
+    transition:
+      transform 0.3s cubic-bezier(0.05, 0, 0, 1),
+      opacity 0s 0.3s;
+  }
+
+  ytd-page-manager#page-manager {
+    margin-top: 0px;
+
+    ytd-watch-flexy[full-bleed-player]:not([fullscreen]) {
+      #full-bleed-container {
+        max-height: 100svb;
+        height: 100svb;
+      }
+    }
+  }
+
+  ytd-player#ytd-player {
+    height: 100svb;
+  }
+}
