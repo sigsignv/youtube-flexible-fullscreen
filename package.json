@@ -20,7 +20,7 @@
     "valibot": "^1.4.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.14",
+    "@biomejs/biome": "2.5.10",
     "typescript": "^6.0.3",
     "wxt": "^0.20.25"
   }
